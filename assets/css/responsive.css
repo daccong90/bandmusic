@@ -1,0 +1,82 @@
+@media (max-width: 740px) {
+  #header {
+    overflow: hidden;
+  }
+  #header #nav li {
+    display: block;
+    display: block !important;
+  }
+  #header #nav li a {
+    padding: 6px 24px;
+  }
+  #header #nav .home-btn {
+    display: inline-block !important;
+  }
+  #header #nav .btn-more .subnav {
+    position: initial !important;
+    background-color: #333;
+  }
+  #header #nav .btn-more .subnav li a {
+    color: #fff !important;
+    padding-left: 44px !important;
+  }
+  #header #nav .btn-more .subnav li a:hover {
+    color: #000 !important;
+  }
+  #header .ti-search {
+    display: none;
+  }
+  .member-item {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px !important;
+  }
+  .member-item img {
+    width: 72% !important;
+  }
+  .place-tours .place {
+    width: 100%;
+  }
+  #footer {
+    padding-bottom: 96px;
+  }
+  #footer .contact .info-contact {
+    padding-left: 8px;
+    margin-bottom: 30px;
+  }
+  #footer .contact .sub-contact {
+    padding-right: 8px;
+  }
+  .js-buy-ticket {
+    padding: 12px 0 !important;
+    display: block;
+  }
+  input.name {
+    margin-bottom: 8px !important;
+  }
+  .s-col-full {
+    width: 100% !important;
+  }
+  .s-width-full {
+    width: 96% !important;
+  }
+  .btn-submit {
+    margin: 0 8px !important;
+    position: initial !important;
+    text-align: center;
+    line-height: 1.5 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ti-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+  .ti-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
